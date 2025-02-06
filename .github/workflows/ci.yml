@@ -67,6 +67,7 @@ jobs:
           path: standalone/loader/build/libs/LuckPerms-Standalone-*.jar
 
 
+
   build-docker:
     needs: build-gradle
     runs-on: ubuntu-latest
